@@ -1,0 +1,587 @@
+/* Notification */
+.BoxComponent-elevated-box {
+    border-radius: 8px;
+    background-color: rgba(45, 45, 45, 0.85);
+    backdrop-filter: blur(1.5rem) saturate(3.5) !important;
+    box-shadow: 0px 0px 0px 1px rgba(15, 15, 15, 0.2);
+}
+
+/* Fix */
+html {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.contentSpacing { 
+    max-width: 100vw !important;
+    padding-bottom: 10%;
+}
+.spotify__container--is-desktop.spotify__os--is-windows .main-view-container__scroll-node>.os-scrollbar-vertical {
+    top: 0px;
+}
+.button-module__button___hf2qg_marketplace {
+    margin-bottom: 100%;
+}
+
+/* Cursor */
+button,
+.show-followButton-button,
+.main-dropDown-dropDown,
+.x-toggle-wrapper,
+.main-playlistEditDetailsModal-closeBtn,
+.main-trackList-rowPlayPauseButton,
+.main-rootlist-rootlistItemLink:link,
+.main-rootlist-rootlistItemLink:visited,
+.x-sortBox-sortDropdown,
+.main-contextMenu-menuItemButton,
+.main-trackList-column,
+.main-moreButton-button,
+.x-downloadButton-button,
+.main-playButton-PlayButton,
+.main-coverSlotExpandedCollapseButton-chevron,
+.main-coverSlotCollapsed-chevron,
+.control-button:focus,
+.control-button:hover,
+.main-repeatButton-button,
+.main-skipForwardButton-button,
+.main-playPauseButton-button,
+.main-skipBackButton-button,
+.main-shuffleButton-button,
+.main-addButton-button,
+.progress-bar__slider,
+.playback-bar,
+.main-editImageButton-image,
+.X1lXSiVj0pzhQCUo_72A {
+    cursor: pointer !important;
+}
+
+/* Scroll */
+.os-scrollbar-handle {
+    border-radius: 8px;
+    width: 4px;
+    left: 4px;
+    background: rgba(159, 159, 159, 0.5) !important;
+    backdrop-filter: invert(50%);
+}
+.os-scrollbar-handle:hover {
+    width: 6px;
+    left: 3px;
+}
+.os-scrollbar-track {
+    left: 1px;
+    border-radius: 8px;
+}
+.os-scrollbar-track:hover {
+    background: rgba(46, 46, 46, 0.85) !important;
+    backdrop-filter: blur(1.5rem) saturate(3.5) !important;
+    transition: none;
+}
+.os-scrollbar-horizontal {
+     display: none;
+}
+
+/* Sidebar */
+.Root__top-container {
+    background: rgba(32, 32, 32, 1);
+}
+.Root__nav-bar {
+    background: none;
+    top: 15px;
+}
+.main-navBar-mainNav,
+.main-yourLibraryX-entryPoints,
+.main-yourLibraryX-library,
+.main-yourLibraryX-libraryContainer {
+    background: none;
+}
+
+.main-yourLibraryX-isScrolled {
+    background: none;
+    box-shadow: none;
+}
+.main-yourLibraryX-navItem {
+    padding: 12px;
+    border-radius: 8px;
+}
+.main-yourLibraryX-navItem:hover {
+    background: rgba(45, 45, 45, 1);
+}
+.main-youtLibraryX-navItem:focus {
+    background: rgba(69, 69, 69, 1);
+}
+.main-yourLibraryX-navLink {
+    width: auto !important;
+    height: auto !important;
+}
+.x-entityImage-imageContainer {
+    box-shadow: none;
+}
+.main-yourLibraryX-listItemGroup {
+    border-radius: 8px;
+}
+.main-yourLibraryX-listItemGroup:hover {
+    background: rgba(45, 45, 45, 1);
+}
+.main-yourLibraryX-listItemGroup:focus {
+    background: rgba(69, 69, 69, 1);
+}
+.x-filterBox-expandButton {
+    border-radius: 8px;
+}
+.x-filterBox-expandButton:hover {
+    border-radius: 8px;
+    background: rgba(45, 45, 45, 1);
+}
+
+/* Topbar */
+.main-topBar-container {
+    top: -5px;
+    left: 0px;
+    position: fixed;
+}
+.main-topBar-background {
+    display: none;
+}
+.main-topBar-topbarContent>* {
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-topBar-topbarContentWrapper {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 0 !important;
+}
+.main-topBar-whatsNewFeed,
+.main-topBar-buddyFeed {
+    display: none !important;
+}
+.Button-medium-medium-buttonTertiary-condensedAll-isUsingKeyboard-useBrowserDefaultFocusStyle {
+    right: 15%;
+}
+
+.main-userWidget-boxCondensed {
+    background: rgba(255, 255, 255, 1) !important;
+    width: 28px;
+    height: 28px;
+    margin-right: 10%;
+}
+.main-topBar-historyButtons {
+    margin-left: 5%;
+}
+
+/* Main */
+.Root__main-view {
+    background: rgba(39, 39, 39, 1);
+    border-top-left-radius: 8px !important;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 1px rgba(29, 29, 29, 1);
+    left: 7px;
+    top: 15px;
+}
+.main-actionBarBackground-background,
+.main-entityHeader-overlay {
+    display: none
+}
+.main-entityHeader-container {
+    top: 64px;
+}
+.main-actionBar-ActionBar {
+    height: 0px;
+    background: none;
+}
+.main-entityHeader-title {
+    -webkit-box-orient: horizontal;
+    margin-top: 0px;
+}
+.main-entityHeader-background,
+.main-entityHeader-backgroundColor {
+    background: linear-gradient(0deg, rgb(39, 39, 39), transparent);
+    height: 85%;
+}
+.xcTrtCsYOPtSElbX9inq {
+    background: rgba(39, 39, 39, 1);
+}
+.view-homeShortcutsGrid-shortcuts {
+    display: none;
+}
+.main-home-home {
+    padding-top: 25px;
+}
+.main-home-homeHeader {
+    display: none;
+}
+.LayoutResizer__resize-bar {
+    display: none;
+}
+.main-view-container__scroll-node-child-spacer {
+    display: none;
+}
+.main-shelf-title {
+    padding-top: 10px;
+    padding-bottom:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: translateX(0px);
+    transition: transform ease-out 200ms;
+}
+.main-shelf-title:hover {
+    background: rgba(52, 52, 52, 1);
+    color: rgba(30, 215, 96, 1);
+    border-radius: 8px;
+    transform: translateX(10px);
+    transition: transform ease-out 200ms;
+}
+[data-context-menu-open=true]>a,
+a:focus,
+a:hover,
+a[data-context-menu-open=true] {
+    text-decoration: none;
+}
+.main-shelf-topRow {
+    display: block;
+}
+.main-entityHeader-headerText,
+.main-entityHeader-container {
+    top: 64px;
+    margin-right: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+.main-entityHeader-imageContainer {
+    display: none !important;
+}
+.main-entityHeader-pretitle {
+    display: none;
+}
+.main-card-PlayButtonContainer{
+    bottom: 40%;
+    left: 40%;
+    box-shadow: none;
+}
+.Op2n2H4o1iY0Xo2wAUH9 {
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+}
+.playlist-playlist-playlistContent,
+.artist-artistOverview-artistOverviewContent {
+    background: none;
+}
+.marketplace-header {
+    top: 0px;
+    left: 0px;
+    padding: 15px;
+    position: fixed;
+    background: none;
+    width: 100%;
+}
+.marketplace-card-type-heading {
+    margin: 3em 0 0.5em;
+}
+.main-trackList-trackListHeader {
+    top: 0px !important;
+    background: rgba(39, 39, 39, 1) !important;
+}
+.main-trackList-trackListHeaderStuck {
+    box-shadow: none !important;
+}
+.search-searchCategory-SearchCategory {
+    background: none;
+    top: 5px;
+    position: relative;
+}
+
+/* Card */
+.main-heroCard-card,
+.main-card-card {
+    background: rgba(50, 50, 50, 1);
+    box-shadow: 0px 0px 0px 1px rgba(35, 35, 35, 1);
+    transition: transform ease-out 200ms;
+    transform: translateY(0px);
+}
+.main-heroCard-card:hover,
+.main-card-card:hover {
+    transform: translateY(-2px);
+    transition: transform ease-out 200ms;
+    background: rgba(46, 46, 46, 1);
+    box-shadow: 0px 5px 5px 2px rgba(15, 15, 15, 0.2);
+}
+.main-card-imageContainer {
+    margin: -16px -16px 10px -16px;
+}
+.main-cardImage-imageWrapper {
+    background: none;
+    box-shadow: none;
+}
+.main-cardImage-image {
+    border-radius: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.x-searchHistoryEntries-clearSingleSearchHistoryButton {
+    padding: 8px;
+    border-radius: 4px;
+    background: none;
+}
+.x-searchHistoryEntries-clearSingleSearchHistoryButton:hover {
+    background: rgba(70, 70, 70, 0.5);
+    backdrop-filter: blur(1.5rem) saturate(3.5);
+}
+.main-playButton-PlayButton {
+    display: none;
+}
+
+/* Feed */
+.main-buddyFeed-container {
+    background: rgba(43, 43, 43, 1);
+    box-shadow: 0px 0px 0px 1px rgba(29, 29, 29, 1);
+    border-radius: 0px;
+    max-width: 300px;
+    margin-left: -7px;
+    left: 7px;
+    top: 15px;
+}
+.main-nowPlayingView-coverArtContainer {
+    min-height: 0px !important;
+}
+.main-nowPlayingView-coverArt {
+    width: 85px;
+} 
+.main-nowPlayingView-coverArtContainer {
+    min-height: unset !important;
+    height: 85px !important;
+} 
+.main-nowPlayingView-nowPlayingGrid {
+    flex-direction: unset;
+} 
+.main-nowPlayingView-contextItemInfo .main-trackInfo-name {
+    font-size: 1.25rem;
+} 
+.main-nowPlayingView-contextItemInfo .main-trackInfo-artists {
+    font-size: 0.85rem;
+}
+
+/* Menu */
+.main-contextMenu-menu {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+div#context-menu {
+    border-radius: 8px;
+    background-color: rgba(45, 45, 45, 0.85);
+    backdrop-filter: blur(1.5rem) saturate(3.5) !important;
+    box-shadow: 0px 0px 0px 1px rgba(15, 15, 15, 0.2);
+}
+div#context-menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    background-image: url('https://nimsandu.github.io/spicetify-bloom/assets/noise/noise_context_menu.png');
+    opacity: 50%;
+}
+.main-contextMenu-menuItemButton {
+    border-radius: 8px;
+}
+div.main-contextMenu-tippy {
+    background-color: rgba(45, 45, 45, 0.85);
+    backdrop-filter: blur(1.5rem) saturate(3.5) !important;
+    box-shadow: 0px 0px 0px 1px rgba(15, 15, 15, 0.2);
+}
+.main-contextMenu-menuItem:not(:first-child)>.main-contextMenu-dividerBefore:before,
+.main-contextMenu-menuItem:not(:last-child)>.main-contextMenu-dividerAfter:after {
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.Dropdown-menu {
+    border-radius: 8px;
+    background-color: rgba(45, 45, 45, 0.85);
+    backdrop-filter: blur(1.5rem) saturate(3.5) !important;
+    box-shadow: 0px 0px 0px 1px rgba(15, 15, 15, 0.2);
+}
+.Dropdown-control {
+    border-radius: 4px;
+    background: var(--spice-tab-active);
+}
+.Dropdown-root.is-open .Dropdown-menu {
+    z-index: -1;
+    border-radius: 4px !important;
+    margin-top: -36px;
+    padding-top: 36px;
+}
+.Dropdown-root.is-open .Dropdown-control {
+    background: none;
+    box-shadow: none;
+}
+
+/* Setting */
+.x-toggle-indicatorWrapper {
+    background: rgba(39, 39, 39, 1);
+    box-shadow: 0px 0px 0px 1px rgb(206, 206, 206, 1);
+    height: 20px;
+    width: 38px;
+}
+input:hover:not([disabled],:active)~.x-toggle-indicatorWrapper {
+    background: rgb(52, 52, 52, 1);
+}
+.x-toggle-indicator {
+    height: 12px;
+    width: 12px;
+    margin: 2px;
+    background:rgba(206, 206, 206, 1);
+}
+.x-toggle-indicator:hover {
+    height: 14px;
+    width: 14px;
+    margin: 1px;
+}
+input:checked~.x-toggle-indicatorWrapper {
+    box-shadow: none;
+    background: rgba(30, 215, 96, 1);
+}
+input:checked~.x-toggle-indicatorWrapper .x-toggle-indicator {
+    background: rgba(0, 0, 0, 1);
+}
+
+/* Searchbar */
+.searchbar-bar,
+.x-filterBox-filterInput,
+.x-searchInput-searchInputInput {
+    background: rgba(45, 45, 45, 1) !important;
+    border: 1px solid rgba(53, 53, 53, 1) !important;
+    border-radius: 6px !important;
+    height: 32px !important;
+    transition: none !important;
+}
+.searchbar-bar:hover,
+.x-filterBox-filterInput:hover,
+.x-searchInput-searchInputInput:hover {
+    background: rgba(50, 50, 50, 1) !important;
+    transition: none !important;
+}
+.searchbar-bar:focus,
+.x-filterBox-filterInput:focus,
+.x-searchInput-searchInputInput:focus {
+    background: rgba(31, 31, 31, 1) !important;
+    border: 1px solid rgba(48, 48, 48, 1) !important;
+    border-bottom: 2px solid rgba(30, 215, 96, 1) !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+/* Player */
+.Root__now-playing-bar {
+    position: fixed;
+    bottom: 1%;
+    left: 10%;
+    width: 80%;
+    padding: 1%;
+    border-radius: 8px;
+    backdrop-filter: blur(1.5rem) saturate(3.5) !important;
+    background-color: rgba(32, 32, 32, 0.85);
+    border: 1px solid rgba(45, 45, 45, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.5);
+}
+.Root__now-playing-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://nimsandu.github.io/spicetify-bloom/assets/noise/noise_context_menu.png');
+    opacity: 50%;
+}
+.main-nowPlayingBar-nowPlayingBar {
+    height: auto;
+}
+.main-coverSlotCollapsed-expandButton {
+    display: none;
+}
+.main-connectBar-connectBar {
+    display: none;
+}
+
+.progress-bar__slider {
+    background: rgba(30, 215, 96, 1);
+    border: 4px solid rgba(69, 69, 69, 1);
+    height: 18px;
+    width: 18px;
+}
+.progress-bar__slider:hover {
+    border: 3px solid rgba(69, 69, 69, 1);
+}
+.x-progressBar-fillColor {
+    transition: transform linear 250ms;
+}
+
+/* SVG */
+.home-icon {
+    -webkit-mask-image: url('https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Home/SVG/ic_fluent_home_24_regular.svg');
+    background-color: rgba( 160, 160, 160, 1) !important;
+}
+.home-active-icon {
+    -webkit-mask-image: url('https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Home/SVG/ic_fluent_home_24_filled.svg');
+    background-color: rgba(30, 215, 96, 1) !important;
+}
+.search-icon {
+    -webkit-mask-image: url('https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Search/SVG/ic_fluent_search_24_regular.svg');
+    background-color: rgba( 160, 160, 160, 1) !important;
+}
+.search-active-icon {
+    -webkit-mask-image: url('https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Search/SVG/ic_fluent_search_24_filled.svg');
+    background-color: rgba(30, 215, 96, 1) !important;
+}
+.collection-icon {
+    -webkit-mask-image: url('https://nimsandu.github.io/spicetify-bloom/assets/fluentui-system-icons/ic_fluent_library_24_regular.svg');
+    background-color: rgba( 160, 160, 160, 1) !important;
+}
+.collection-active-icon {
+    -webkit-mask-image: url('https://nimsandu.github.io/spicetify-bloom/assets/fluentui-system-icons/ic_fluent_library_24_filled.svg');
+    background-color: rgba(30, 215, 96, 1) !important;
+}
+.main-navBar-navBarLink[href='/marketplace'] > .collection-icon,
+.main-yourLibraryX-navLink[href='/marketplace'] > .home-icon {
+    -webkit-mask-image: url('https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Shopping%20Bag/SVG/ic_fluent_shopping_bag_24_regular.svg');
+    background-color: rgba( 160, 160, 160, 1) !important;
+}
+.main-navBar-navBarLink[href='/marketplace'] > .collection-active-icon,
+.main-yourLibraryX-navLink[href='/marketplace'] > .home-active-icon {
+    -webkit-mask-image: url('https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/assets/Shopping%20Bag/SVG/ic_fluent_shopping_bag_24_filled.svg');
+    background-color: rgba(30, 215, 96, 1) !important;
+}
+.home-icon path,
+.search-icon path,
+.collection-icon path,
+.home-active-icon path,
+.search-active-icon path,
+.collection-active-icon path {
+    display: none !important;
+}
+.main-trackList-playingIcon {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg id='playing-icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 24'%3E%3Cdefs%3E%3Cstyle%3E %23playing-icon %7B fill: %2320BC54; %7D @keyframes play %7B 0%25 %7Btransform: scaleY(1);%7D 3.3%25 %7Btransform: scaleY(0.9583);%7D 6.6%25 %7Btransform: scaleY(0.9166);%7D 9.9%25 %7Btransform: scaleY(0.8333);%7D 13.3%25 %7Btransform: scaleY(0.7083);%7D 16.6%25 %7Btransform: scaleY(0.5416);%7D 19.9%25 %7Btransform: scaleY(0.4166);%7D 23.3%25 %7Btransform: scaleY(0.25);%7D 26.6%25 %7Btransform: scaleY(0.1666);%7D 29.9%25 %7Btransform: scaleY(0.125);%7D 33.3%25 %7Btransform: scaleY(0.125);%7D 36.6%25 %7Btransform: scaleY(0.1666);%7D 39.9%25 %7Btransform: scaleY(0.1666);%7D 43.3%25 %7Btransform: scaleY(0.2083);%7D 46.6%25 %7Btransform: scaleY(0.2916);%7D 49.9%25 %7Btransform: scaleY(0.375);%7D 53.3%25 %7Btransform: scaleY(0.5);%7D 56.6%25 %7Btransform: scaleY(0.5833);%7D 59.9%25 %7Btransform: scaleY(0.625);%7D 63.3%25 %7Btransform: scaleY(0.6666);%7D 66.6%25 %7Btransform: scaleY(0.6666);%7D 69.9%25 %7Btransform: scaleY(0.6666);%7D 73.3%25 %7Btransform: scaleY(0.6666);%7D 76.6%25 %7Btransform: scaleY(0.7083);%7D 79.9%25 %7Btransform: scaleY(0.75);%7D 83.3%25 %7Btransform: scaleY(0.8333);%7D 86.6%25 %7Btransform: scaleY(0.875);%7D 89.9%25 %7Btransform: scaleY(0.9166);%7D 93.3%25 %7Btransform: scaleY(0.9583);%7D 96.6%25 %7Btransform: scaleY(1);%7D %7D %23bar1 %7B transform-origin: bottom; animation: play 0.9s -0.51s infinite; %7D %23bar2 %7B transform-origin: bottom; animation: play 0.9s infinite; %7D %23bar3 %7B transform-origin: bottom; animation: play 0.9s -0.15s infinite; %7D %23bar4 %7B transform-origin: bottom; animation: play 0.9s -0.75s infinite; %7D %3C/style%3E%3C/defs%3E%3Ctitle%3Eplaying-icon%3C/title%3E%3Crect id='bar1' class='cls-1' width='4' height='24'/%3E%3Crect id='bar2' class='cls-1' x='6' width='4' height='24'/%3E%3Crect id='bar3' class='cls-1' x='12' width='4' height='24'/%3E%3Crect id='bar4' class='cls-1' x='18' width='4' height='24'/%3E%3C/svg%3E"); background: var(--spice-button); content-visibility: hidden; -webkit-mask-repeat: no-repeat;
+}
+
+/* Ads */
+.MnW5SczTcbdFHxLZ_Z8j,
+.WiPggcPDzbwGxoxwLWFf,
+.ReyA3uE3K7oEz7PTTnAn,
+.I0UigpTrBFkGuoWMpQcq,
+.main-leaderboardComponent-container,
+.sponsor-container,
+a.link-subtle.main-navBar-navBarLink.GKnnhbExo0U9l7Jz2rdc,
+button[title="Upgrade to Premium"],
+button[aria-label="Upgrade to Premium"],
+.main-topBar-UpgradeButton,
+.main-contextMenu-menuItem a[href^="https://www.spotify.com/premium/"],
+.x-downloadButton-DownloadButton {
+    display: none !important;
+}
